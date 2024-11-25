@@ -1,0 +1,110 @@
+.cabecalho{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    background-color: var(--background-header);
+}
+
+.header-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    position: inherit;
+    margin-left: 25px;
+}
+
+.menu-hamburger,
+.notification-header,
+.profile-header{
+    width: 50px;
+    height: 50px;
+}
+
+.header-right{
+    width: 50%;
+    height: 100%;
+    position: inherit;
+}
+
+.input-search{
+    padding-left: 50px;
+}
+
+.icon-search{
+    position: absolute;
+    top: 34px;
+    right: 284px;
+    z-index: 1;
+}
+
+.input-search{
+    position: absolute;
+    right: 63px;
+    width: 260px;
+    height: 30px;
+    top: 30px;
+    border-radius: 21px;
+    border-style: none;
+    color: var(--preto);
+}
+
+input[type="text"]:focus{
+    outline: none;
+    color: var(--preto);
+}
+
+input[type="text"]{
+    color: var(--preto);
+}
+
+.menu-toggle{
+    width: 102px;
+    height: 797px;
+    display: flex;
+    background: var(--gradiente-toggle);
+}
+
+.menu-toggle > figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    margin-top: 30%;
+    margin-left: 25px;
+}
+
+.menu-toggle figure a {
+    margin: 0 auto;
+}
+
+.menu-toggle figure img {
+    width: 50px;
+    height: 50px;
+}
+
+.faturamento-mensal{
+    position: absolute;
+    width: 300px;
+    height: 270px;
+    background-color: var(--background);
+    border-radius: var(--radius-cards);
+    border: 3px solid var(--branco);
+    top: calc(68px + 102px);
+    left: calc(8px + 102px);
+}
+
+.cabecalho-faturamento-mensal{
+    background-color: var(--background-header);
+    text-align: center;
+    border-top: var(--border-top-card);
+    border-left: var(--border-left-card);
+    border-right: var(--border-right-card);
+    width: 300px;
+    height: 40px;
+    border-radius: var(--radius-cabecalho-cards);
+}

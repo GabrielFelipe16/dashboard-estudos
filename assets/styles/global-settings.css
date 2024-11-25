@@ -1,0 +1,27 @@
+:root{
+    --gradiente-toggle: linear-gradient(180deg, #36669B 0%, #132335 100%);
+
+    --background-header: #1E6DEC;
+    --background: #282C31;
+    --branco: #ffffff;
+    --preto: #000000;
+
+    --bandeira-guam-grafico: #3B5AA3;
+    --bandeira-ecuador-grafico: #FFE800;
+    --bandeira-cuba-grafico: #CB1515;
+    --bandeira-burundi-grafico: #18B637;
+    --bandeira-argentina-grafico: #74ACDF;
+    --bandeira-novaZelandia-grafico: #00247D;
+    --bandeira-angola-grafico: #F00;
+    --bandeira-brasil-grafico: #229E45;
+
+    --radius-cards: 15px; 
+    --radius-header-card: 15px 15px 0px 0px;
+
+    --border-top-card: 3px solid #FFF;
+    --border-right-card: 3px solid #FFF;
+    --border-left-card: 3px solid #FFF;
+
+    --radius-ranking-vendas: 0 30px 30px 30px;
+    --radius-cabecalho-cards: 15px 15px 0px 0px;
+}
