@@ -88,17 +88,17 @@ input[type="text"]{
 }
 
 .faturamento-mensal {
-    top: calc(68px + 102px);
+    top: calc(30px + 102px);
     left: calc(8px + 102px);
 }
 
 .media-mensal{
-    top: calc(68px + 102px);
+    top: calc(30px + 102px);
     left: calc(322px + 102px);
 }
 
 .vendas-produto{
-    top: calc(68px + 102px);
+    top: calc(30px + 102px);
     left: calc(636px + 102px);
 }
 
@@ -140,24 +140,24 @@ input[type="text"]{
 
 .ranking-vendas{
     width: 370px;
-    height: 523px;
+    height: 450px;
     border-radius: var(--radius-cards);
     border: 3px solid var(--branco);
     background-color: var(--background);
     position: absolute;
-    top: calc(68px + 102px);
+    top: calc(30px + 102px);
     left: calc(956px + 102px);
 }
 
 .perfil-2{
-    top: 193px;
+    top: 160px;
 }
 .perfil-3{
-    top: 288px;
+    top: 260px;
 }
 
 .perfil-4{
-    top: 382px
+    top: 360px
 }
 
 .left-card{
@@ -166,4 +166,66 @@ input[type="text"]{
 
 .right-card{
     padding: 10px;
+}
+
+.vendas-paises{
+    width: 300px;
+    height: 458px;
+    position: absolute;
+    left: calc(8px + 102px);
+    top: calc(330px + 90px);
+    border: 3px solid var(--branco);
+    border-radius: var(--radius-cards);
+}
+
+.conjunto-guam{
+    margin-top: 18px;
+}
+
+.grafico-vendas-guam{
+    width: 130px;
+    background-color: var(--bandeira-guam-grafico);
+    margin-right: 13px;
+}
+
+.grafico-vendas-ecuador{
+    width: 109px;
+    background-color: var(--bandeira-ecuador-grafico);
+    margin-right: 35px;
+}
+
+.grafico-vendas-cuba{
+    width: 96px;
+    background-color: var(--bandeira-cuba-grafico);
+    margin-right: 48px;
+}
+
+.grafico-vendas-burundi{
+    width: 83px;
+    background-color: var(--bandeira-burundi-grafico);
+    margin-right: 61px;
+}
+
+.grafico-vendas-argentina{
+    width: 75px;
+    background-color: var(--bandeira-argentina-grafico);
+    margin-right: 69px;
+}
+
+.grafico-vendas-novaZelandia{
+    width: 67px;
+    background-color: var(--bandeira-novaZelandia-grafico);
+    margin-right: 77px;
+}
+
+.grafico-vendas-angola{
+    width: 55px;
+    background-color: var(--bandeira-angola-grafico);
+    margin-right: 89px;
+}
+
+.grafico-vendas-brasil{
+    width: 37px;
+    background-color: var(--bandeira-brasil-grafico);
+    margin-right: 107px;
 }

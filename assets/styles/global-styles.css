@@ -5,6 +5,10 @@
     color: var(--branco);
 }
 
+a{
+    text-decoration: none;
+}
+
 .container-dashboard{
     width: 100vw;
     height: 100vh;
@@ -59,12 +63,16 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 90px;
+    top: 60px;
     border: 3px solid #ffffff;
     border-radius: 0 30px 30px 30px;
     width: 349px;
     justify-content: center;
     margin-left: 5px;
+}
+
+.foto-perfil{
+    margin-top: 5px;
 }
 
 .perfis figure{
@@ -91,4 +99,33 @@
 .vendas-perfil-3,
 .vendas-perfil-4{
     font-size: 24px;
+}
+
+.vendas-paises{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bandeira{
+    width: 55px;
+    height: 40px;
+}
+
+.conjuntos{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.graficos{
+    margin-left: 12px;
+    height: 19px;
+    margin-top: 12px;
+}
+
+.vendas-valores{
+    width: 53px;
+    height: 16px;
+    margin-top: 15px;
 }
