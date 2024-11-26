@@ -21,3 +21,74 @@
     height: 100%;
     background-color: var(--background);
 }
+
+.card{
+    position: absolute;
+    width: 300px;
+    height: 270px;
+    background-color: var(--background);
+    border-radius: var(--radius-cards);
+    border: 3px solid var(--branco);
+}
+
+.cabecalho-card {
+    background-color: var(--background-header);
+    text-align: center;
+    border-top: var(--border-top-card);
+    border-left: var(--border-left-card);
+    border-right: var(--border-right-card);
+    width: 102%;
+    height: 40px;
+    border-radius: var(--radius-cabecalho-cards);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -2px;
+    left: -3px;
+    font-size: 24px;
+}
+
+.valor-card{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+.perfis{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 90px;
+    border: 3px solid #ffffff;
+    border-radius: 0 30px 30px 30px;
+    width: 349px;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.perfis figure{
+    margin-right: 0px;
+}
+
+.left-card,
+.right-card{
+    width: 50%;
+}
+
+.trofeis{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.nomes{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.vendas-perfil-1,
+.vendas-perfil-2,
+.vendas-perfil-3,
+.vendas-perfil-4{
+    font-size: 24px;
+}

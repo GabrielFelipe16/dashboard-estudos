@@ -64,7 +64,7 @@ input[type="text"]{
 
 .menu-toggle{
     width: 102px;
-    height: 797px;
+    height: calc(100% - 90px);
     display: flex;
     background: var(--gradiente-toggle);
 }
@@ -72,9 +72,9 @@ input[type="text"]{
 .menu-toggle > figure {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 90%;
-    margin-top: 30%;
+    margin-top: 10%;
     margin-left: 25px;
 }
 
@@ -87,24 +87,83 @@ input[type="text"]{
     height: 50px;
 }
 
-.faturamento-mensal{
-    position: absolute;
-    width: 300px;
-    height: 270px;
-    background-color: var(--background);
-    border-radius: var(--radius-cards);
-    border: 3px solid var(--branco);
+.faturamento-mensal {
     top: calc(68px + 102px);
     left: calc(8px + 102px);
 }
 
-.cabecalho-faturamento-mensal{
-    background-color: var(--background-header);
-    text-align: center;
-    border-top: var(--border-top-card);
-    border-left: var(--border-left-card);
-    border-right: var(--border-right-card);
-    width: 300px;
-    height: 40px;
-    border-radius: var(--radius-cabecalho-cards);
+.media-mensal{
+    top: calc(68px + 102px);
+    left: calc(322px + 102px);
+}
+
+.vendas-produto{
+    top: calc(68px + 102px);
+    left: calc(636px + 102px);
+}
+
+.produto-a-b,
+.produto-c-d {
+    position: relative;
+}
+
+.produto-a,
+.produto-b,
+.produto-c,
+.produto-d{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    font-size: 24px;
+}
+
+.preco-a,
+.preco-b,
+.preco-c,
+.preco-d{
+    position: absolute;
+    left: 10px;
+}
+
+.produto-c{
+    left: 160px;
+}
+
+.produto-d{
+    top: 150px;
+    left: 160px;
+}
+
+.produto-b{
+    top: 150px;
+}
+
+.ranking-vendas{
+    width: 370px;
+    height: 523px;
+    border-radius: var(--radius-cards);
+    border: 3px solid var(--branco);
+    background-color: var(--background);
+    position: absolute;
+    top: calc(68px + 102px);
+    left: calc(956px + 102px);
+}
+
+.perfil-2{
+    top: 193px;
+}
+.perfil-3{
+    top: 288px;
+}
+
+.perfil-4{
+    top: 382px
+}
+
+.left-card{
+    padding-left: 20px;
+}
+
+.right-card{
+    padding: 10px;
 }
